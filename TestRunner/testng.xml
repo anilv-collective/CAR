@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CollectiveApiTestSuite">
+
+    <test name="CollectiveApiTest" allow-return-values="true">
+
+        <classes>
+            <class name="Workflow.GetAdvertiserApiTest"/>
+        </classes>
+
+    </test>
+
+</suite>
+
